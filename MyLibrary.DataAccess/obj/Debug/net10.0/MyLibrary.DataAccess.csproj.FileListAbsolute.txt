@@ -1,0 +1,17 @@
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\bin\Debug\net10.0\MyLibrary.DataAccess.deps.json
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\bin\Debug\net10.0\MyLibrary.DataAccess.dll
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\bin\Debug\net10.0\MyLibrary.DataAccess.pdb
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\bin\Debug\net10.0\MyLibrary.Core.dll
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\bin\Debug\net10.0\MyLibrary.Core.pdb
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\obj\Debug\net10.0\MyLibrary.DataAccess.csproj.AssemblyReference.cache
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\obj\Debug\net10.0\MyLibrary.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\obj\Debug\net10.0\MyLibrary.DataAccess.AssemblyInfoInputs.cache
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\obj\Debug\net10.0\MyLibrary.DataAccess.AssemblyInfo.cs
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\obj\Debug\net10.0\MyLibrary.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\obj\Debug\net10.0\MyLibrar.2AB58A3B.Up2Date
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\obj\Debug\net10.0\MyLibrary.DataAccess.dll
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\obj\Debug\net10.0\refint\MyLibrary.DataAccess.dll
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\obj\Debug\net10.0\MyLibrary.DataAccess.pdb
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\obj\Debug\net10.0\ref\MyLibrary.DataAccess.dll
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\bin\Debug\net10.0\MyLibrary.DataAccess.runtimeconfig.json
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\obj\Debug\net10.0\MyLibrary.DataAccess.genruntimeconfig.cache

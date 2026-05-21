@@ -1,0 +1,1 @@
+<ProjectReference Include="..\MyLibrary.DataAccess\MyLibrary.DataAccess.csproj" />
