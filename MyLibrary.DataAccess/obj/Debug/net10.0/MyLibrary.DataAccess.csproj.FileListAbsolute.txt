@@ -15,3 +15,4 @@ C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAcce
 C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\obj\Debug\net10.0\ref\MyLibrary.DataAccess.dll
 C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\bin\Debug\net10.0\MyLibrary.DataAccess.runtimeconfig.json
 C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\obj\Debug\net10.0\MyLibrary.DataAccess.genruntimeconfig.cache
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.DataAccess\obj\Debug\net10.0\MyLibrary.DataAccess.sourcelink.json

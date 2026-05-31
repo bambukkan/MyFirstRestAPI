@@ -3,6 +3,7 @@ using MyLibrary.DataAccess.Repositories;
 using MyLibrary.DataAccess;
 using MyLibrary.Core.Abstractions;
 using MyLibrary.Core.Services;
+using MyLibrary.API.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
@@ -16,6 +17,7 @@ builder.Services.AddControllers()
         // По желанию: сделает JSON более читаемым (с отступами)
         options.JsonSerializerOptions.WriteIndented = true;       
     });
+builder.Services.AddHttpLogging();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();   
@@ -42,6 +44,26 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<GlobalExceptionMiddleware>();
+
+app.UseHttpLogging();
+
+// app.Use(async (context, next) =>{
+//     Console.WriteLine("вход");
+    
+//     await next();
+
+//     Console.WriteLine("выход");
+// });
+
+// app.Use(async (context, next) =>{
+//     Console.WriteLine("вход");
+    
+//     await next();
+
+//     Console.WriteLine("выход");
+// });
 
 app.MapControllers(); 
 

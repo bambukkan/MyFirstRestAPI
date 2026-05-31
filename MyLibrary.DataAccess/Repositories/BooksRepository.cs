@@ -13,9 +13,16 @@ public class BooksRepository : IBooksRepository
         _dbContext = dbContext;
     }
 
-    public async Task<List<BookEntity>> Get()
+    public async Task<List<BookEntity>> Get(int page,int pageSize
+    ,string? title, decimal? minPrice, decimal? maxPrice, string? genre)
     {
-        return await _dbContext.Books.AsNoTracking().ToListAsync();
+        return await _dbContext.Books
+        .AsNoTracking()
+        .Where(b => b.Title.Contains(title) && b.Price >= minPrice
+        && b.Price <= maxPrice && b.Genres.Any(g => g.Name.Contains(genre)))
+        .Skip((page-1) * pageSize)
+        .Take(pageSize)
+        .ToListAsync();
     }
 
     public async Task<List<BookEntity>> GetWithAuthors()

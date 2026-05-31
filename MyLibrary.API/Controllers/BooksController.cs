@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
+using MyLibrary.API.Filters;
 using MyLibrary.Core.Abstractions;
 
 [ApiController]
+[TypeFilter<FilterValidation>()]
 [Route("books")]
 public class BooksController : ControllerBase
 {
@@ -13,15 +15,17 @@ public class BooksController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> Get()
+    public async Task<IActionResult> Get([FromQuery] BookFilter filter)
     {
-        return Ok(await _bookService.Get());
+        return Ok(await _bookService.Get(filter));
     }
+
     [HttpGet("with-authors")]
     public async Task<IActionResult> GetWithAuthors()
     {
         return Ok(await _bookService.GetWithAuthors());
     }
+
 
     [HttpGet("with-genres")]
     public async Task<IActionResult> GetWithGenres()

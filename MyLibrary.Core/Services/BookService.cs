@@ -25,20 +25,18 @@ public class BookService : IBookService
         return await _bookRepository.GetWithGenres();
     }
 
-    public async Task<List<BookEntity>> Get()
+    public async Task<List<BookEntity>> Get(BookFilter filter)
     {
-        return await _bookRepository.Get();
+
+        if (filter.minPrice.HasValue && filter.maxPrice.HasValue && filter.minPrice.Value > filter.maxPrice.Value)
+        throw new ArgumentException("Минимальная цена не может быть больше максимальной");
+       
+        return await _bookRepository.Get(page,
+        pageSize,filter.title,filter.minPrice,filter.maxPrice,filter.genre);
     }
 
     public async Task<Guid> CreateBookAsync(BookRequest request)
     {
-        if (string.IsNullOrWhiteSpace(request.Title))
-        {
-            throw new ArgumentException("Заголовок не найден",nameof(request.Title));
-        }
-        if(request.Price < 0){
-            throw new ArgumentOutOfRangeException(nameof(request.Price),"Цена меньше нуля");
-        }
         var author = await _authorsRepository.GetById(request.AuthorId);
         if(author == null){
             throw new ArgumentOutOfRangeException(nameof(request.AuthorId),"Id автора не найден");

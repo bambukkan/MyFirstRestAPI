@@ -5,7 +5,8 @@ namespace MyLibrary.Core.Abstractions;
 
 public interface IBooksRepository
 {
-    Task<List<BookEntity>> Get();   
+    Task<List<BookEntity>> Get(int page,int pageSize
+    ,string? title, decimal? minPrice, decimal? maxPrice, string? genre);   
     Task<List<BookEntity>> GetWithAuthors();   
     Task<List<BookEntity>> GetWithGenres();   
     Task Add(BookEntity book);

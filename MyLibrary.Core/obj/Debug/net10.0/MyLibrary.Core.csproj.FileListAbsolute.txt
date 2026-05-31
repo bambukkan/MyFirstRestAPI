@@ -9,3 +9,4 @@ C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.Core\obj
 C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.Core\obj\Debug\net10.0\refint\MyLibrary.Core.dll
 C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.Core\obj\Debug\net10.0\MyLibrary.Core.pdb
 C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.Core\obj\Debug\net10.0\ref\MyLibrary.Core.dll
+C:\Users\gk\Desktop\LearningBackend\MyLibrary(First practice)\MyLibrary.Core\obj\Debug\net10.0\MyLibrary.Core.sourcelink.json
